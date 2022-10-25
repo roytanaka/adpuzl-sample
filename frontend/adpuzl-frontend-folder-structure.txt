@@ -1,0 +1,156 @@
+.
+├── README.md
+├── auth_config.json
+├── babel.config.js
+├── cert
+│   ├── _wildcard.local-key.pem
+│   ├── _wildcard.local.pem
+│   ├── _wildcard.localhost-key.pem
+│   ├── _wildcard.localhost.pem
+│   ├── adpuzl.local-key.pem
+│   └── adpuzl.local.pem
+├── jest.config.js
+├── jsconfig.json
+├── netlify.toml
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
+│   ├── AdPuzl\ Privacy\ Policy.pdf
+│   ├── adpuzl-privacy-policy.pdf
+│   ├── favicon.ico
+│   ├── form.html
+│   └── index.html
+├── src
+│   ├── App.vue
+│   ├── FacebookLogin.vue
+│   ├── ad.js
+│   ├── assets
+│   │   ├── Leadgeneration-puzzle-piece-1.png
+│   │   ├── ad-image.jpg
+│   │   ├── adpuzl-logo-beta.png
+│   │   ├── adpuzl-logo-icon.png
+│   │   ├── adpuzl-logo-turquoise-long.png
+│   │   ├── adpuzl-testimonial-2.jpg
+│   │   ├── blue-eyed-cat-peeking.jpg
+│   │   ├── create-ad.svg
+│   │   ├── engagement-puzzle-piece-1.png
+│   │   ├── logo-horizontal-white.svg
+│   │   ├── logo-horizontal.svg
+│   │   ├── makeup_girl_with_blob.png
+│   │   ├── placeholder-logo.png
+│   │   ├── placeholder.jpg
+│   │   ├── placeimg_640_480_any.jpg
+│   │   ├── playground-features-placeholder.png
+│   │   ├── playground-testimonial-1.jpg
+│   │   ├── puzzlegoals-engagement.png
+│   │   ├── puzzlegoals-leadgen-1.png
+│   │   ├── puzzlegoals-reach.png
+│   │   ├── puzzlegoals-traffic.png
+│   │   ├── reach-puzzle-piece-1.png
+│   │   ├── sign-in
+│   │   │   ├── ADPUZL-email-verify-1.svg
+│   │   │   ├── ADPUZL-email-verify-2.svg
+│   │   │   ├── ADPUZL-save-time-1.svg
+│   │   │   └── ADPUZL-save-time-2.svg
+│   │   ├── traffic-puzzle-piece-1.png
+│   │   └── user.svg
+│   ├── auth
+│   │   └── index.js
+│   ├── components
+│   │   ├── ApActivationLink.vue
+│   │   ├── ApAdBuilder.vue
+│   │   ├── ApBannerAlert.vue
+│   │   ├── ApBtn.vue
+│   │   ├── ApCreditCard.vue
+│   │   ├── ApDetailCard.vue
+│   │   ├── ApDialog.vue
+│   │   ├── ApFieldsetCard.vue
+│   │   ├── ApMenu.vue
+│   │   ├── ApPagination.vue
+│   │   ├── ApSpinner.vue
+│   │   ├── ApStages.vue
+│   │   ├── ApSubscriptionSwitch.vue
+│   │   ├── Dashboard
+│   │   │   ├── AdActions.vue
+│   │   │   └── AdCard.vue
+│   │   ├── Demo
+│   │   │   ├── ApDemoContact.vue
+│   │   │   ├── ApDemoMenu.vue
+│   │   │   ├── ApFeatures.vue
+│   │   │   ├── ApPricing.vue
+│   │   │   ├── ApTestimonial1.vue
+│   │   │   ├── ApTestimonial2.vue
+│   │   │   └── TheDemoHeader.vue
+│   │   ├── FooterLinks.vue
+│   │   ├── TheToolbar.vue
+│   │   ├── VerifyEmail.vue
+│   │   └── icons
+│   │       └── SuggestBulb.vue
+│   ├── css
+│   │   ├── _ad-mockup.css
+│   │   ├── _anchor.css
+│   │   ├── _base.css
+│   │   ├── _highlight.css
+│   │   ├── _layout.css
+│   │   ├── _nav-menu.css
+│   │   ├── _tailwind.css
+│   │   ├── _typography.css
+│   │   ├── _utility.scss
+│   │   ├── _welcome-form.css
+│   │   └── main.scss
+│   ├── data
+│   │   ├── specialAdCategoryOptions.json
+│   │   └── targeting_browse.json
+│   ├── lib
+│   │   └── axios.js
+│   ├── main.js
+│   ├── partials
+│   │   ├── AdPreview.vue
+│   │   ├── CancelEditButton.vue
+│   │   └── PotentialReach.vue
+│   ├── plugins
+│   │   └── fontawesome.js
+│   ├── router
+│   │   └── index.js
+│   ├── store
+│   │   ├── modules
+│   │   │   ├── ad.js
+│   │   │   ├── adBuilder.js
+│   │   │   ├── adpuzl.js
+│   │   │   ├── auth.js
+│   │   │   ├── fb.js
+│   │   │   └── ui.js
+│   │   ├── store.js
+│   │   └── text.json
+│   ├── theme
+│   │   ├── fonts
+│   │   │   ├── element-icons.ttf
+│   │   │   └── element-icons.woff
+│   │   └── index.css
+│   └── views
+│       ├── AdDemo.vue
+│       ├── AdPreview.vue
+│       ├── Audience.vue
+│       ├── Booking.vue
+│       ├── Goal.vue
+│       ├── MyAccount.vue
+│       ├── MyAds.vue
+│       ├── Payment.vue
+│       ├── Welcome.vue
+│       ├── sign-in
+│       │   ├── ForgotPassword.vue
+│       │   ├── LogIn.vue
+│       │   ├── SignUp.vue
+│       │   └── WelcomeContent.vue
+│       └── verification
+│           ├── EmailChangeVerification.vue
+│           ├── ResetPassword.vue
+│           └── UserVerification.vue
+├── tailwind.config.js
+├── tests
+│   └── unit
+│       └── example.spec.js
+└── vue.config.js
+
+25 directories, 128 files

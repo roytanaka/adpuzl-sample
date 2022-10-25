@@ -1,0 +1,133 @@
+.
+├── Dockerfile
+├── README.md
+├── adpuzl-api.code-workspace
+├── commands
+│   ├── CronController.php
+│   └── DevController.php
+├── components
+│   └── JwtValidationData.php
+├── config
+│   ├── console.php
+│   ├── crontabs
+│   │   ├── root
+│   │   └── www-data
+│   ├── local.php
+│   ├── php
+│   │   └── productive.ini
+│   └── web.php
+├── controllers
+│   ├── AdController.php
+│   ├── ProfileController.php
+│   ├── RemoteController.php
+│   ├── RemoteGuestController.php
+│   ├── SiteController.php
+│   ├── TestController.php
+│   ├── UserController.php
+│   └── WebhookController.php
+├── docker-compose-example.yml
+├── docker-compose.yml
+├── helpers
+│   ├── AdHelper.php
+│   └── Mail.php
+├── mail
+│   ├── layouts
+│   │   └── user.php
+│   ├── user
+│   │   ├── account-migration.php
+│   │   ├── ad-approved.php
+│   │   ├── ad-disapproved.php
+│   │   ├── ad-status-change-generic.php
+│   │   ├── ad-stopped.php
+│   │   ├── change-email.php
+│   │   ├── confirm-email.php
+│   │   ├── reset-password.php
+│   │   ├── trial-expiring.php
+│   │   ├── welcome-promo.php
+│   │   └── welcome.php
+│   └── user-report.php
+├── migrations
+│   ├── m150101_000000_init.php
+│   ├── m200914_011851_create_ad_table.php
+│   ├── m201227_193131_add_access_token_fields_column_to_user_table.php
+│   ├── m210109_194418_add_insights_column_to_ad_table.php
+│   ├── m210110_212036_add_name_columns_to_user_table.php
+│   ├── m210114_042344_add_creative_column_to_ad_table.php
+│   ├── m210210_015202_add_plan_column_to_user_table.php
+│   ├── m210221_184104_add_trial_started_at_column_to_user_table.php
+│   ├── m210224_031927_add_trial_reminder_sent_column_to_user_table.php
+│   ├── m210321_163602_add_effective_status_column_to_ad_table.php
+│   ├── m210613_215441_add_adset_column_to_ad_table.php
+│   ├── m210703_180236_create_access_token_table.php
+│   ├── m210711_182705_add_uid_field_to_user_table.php
+│   ├── m210719_014209_add_email_change_token_to_user_table.php
+│   ├── m210829_200056_add_trial_end_column_to_user_table.php
+│   ├── m211011_222112_add_lead_count_column_to_ad_table.php
+│   ├── m211123_022035_create_promo_code_table.php
+│   ├── m220307_042049_add_ad_spend_fields_to_user_table.php
+│   ├── m220315_015848_add_category_column_to_promo_code_table.php
+│   └── m220614_012533_create_ad_draft_table.php
+├── models
+│   ├── AccessToken.php
+│   ├── Ad.php
+│   ├── AdDraft.php
+│   ├── AuthZeroUser.php
+│   ├── CampaignActivity.php
+│   ├── Notification.php
+│   ├── PromoCode.php
+│   ├── S3Signature.php
+│   ├── SendGridContact.php
+│   ├── User.php
+│   ├── behaviors
+│   │   └── TimestampBehavior.php
+│   ├── forms
+│   │   ├── EmailChangeRequestForm.php
+│   │   ├── FacebookConnectionForm.php
+│   │   ├── LoginForm.php
+│   │   ├── PasswordResetRequestForm.php
+│   │   ├── ResetPasswordForm.php
+│   │   └── SignupForm.php
+│   └── queries
+│       └── UserQuery.php
+├── modules
+│   └── v1
+│       ├── Module.php
+│       └── controllers
+│           ├── AccessTokenController.php
+│           ├── AccountMigrationController.php
+│           ├── AdController.php
+│           ├── AdDraftController.php
+│           ├── CodeRedemptionController.php
+│           ├── EmailChangeController.php
+│           ├── EmailConfirmationController.php
+│           ├── FacebookConnectionController.php
+│           ├── PasswordResetController.php
+│           ├── PaymentMethodController.php
+│           ├── SubscriptionController.php
+│           └── UserController.php
+├── package-lock.json
+├── views
+│   ├── layouts
+│   │   └── main.php
+│   ├── site
+│   │   ├── error.php
+│   │   ├── index.php
+│   │   └── maintenance.php
+│   └── user
+│       ├── confirmed-email.php
+│       ├── email-confirmation-failed.php
+│       ├── login.php
+│       ├── password-was-reset.php
+│       ├── request-password-reset.php
+│       ├── requested-password-reset.php
+│       ├── reset-password.php
+│       ├── signed-up.php
+│       └── signup.php
+├── web
+│   ├── css
+│   │   └── site.css
+│   └── index.php
+├── yii
+└── yii.bat
+
+24 directories, 106 files
